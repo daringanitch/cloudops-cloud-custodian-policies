@@ -6,7 +6,9 @@ policies:
       Report on total count of non compliant instances
     filters:
       - or:
-          - "tag:Name": absent
-          - "tag:GSID": absent
-          - "tag:Classification": absent
-          - "tag:Envirnment": absent
+        - "tag:Department": absent
+        - "tag:Owner": absent
+        - "tag:Name": absent
+        - "tag:CreatorName": absent
+        - "tag:Purpose": absent
+        - "tag:Orginization": absent
